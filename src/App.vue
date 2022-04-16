@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<div id="app">
+  <main class="contenedor">
+    <router-view></router-view>
+  </main>
+</div>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import '../public/assets/js/modernizr';
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
-    HelloWorld
+    
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  /* Tipografias */
+  @import url('http://fonts.cdnfonts.com/css/museo-sans-rounded');
+  @import url('http://fonts.cdnfonts.com/css/lato');
+  /* Archivo con configuraciones globales e iniciales */ 
+  @import '../public/assets/css/normalize.css';
+  @import './style.css';
 </style>
