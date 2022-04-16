@@ -32,6 +32,7 @@ Pensando en la experiencia de desarrollo en un futuro, se integro gulp a la apli
 
 ## Despliegue
 Para el desplpiegue se utilizo netlify como plataforma debido a su simplicidad y adminsitracion desde su pagina web.
+https://whimsical-griffin-726995.netlify.app/
 
 
 
